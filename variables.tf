@@ -1,10 +1,3 @@
-variable "access_key" {default = "AKIAJXLUFND4DBL7EA7Q"}
-variable "secret_key" {default = "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"}
-
-variable "aws_region" {
-  description = "The AWS region to create things in."
-  default = "us-west-2"
-}
 
 provider "aws" {
     access_key = "${var.access_key}"
